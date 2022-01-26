@@ -1,5 +1,5 @@
 def greetings() -> None:
-    print("\t\t\t\tWelcome to the Advanced Aegyptian Tactics!"
+    print("\t\tWelcome to the Advanced Aegyptian Tactics!"
           "\n\n\tThis AAT's product is called Unity Sphynx. "
           "\n\tIt receives your code and decodes the secret door, which is locked "
           "\nwith your code. The code must contain only of digits without spaces and "
