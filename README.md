@@ -1,4 +1,4 @@
-# Unity Spinx - version 0.1
+# Unity Spynx - version 0.1
 ## A quick description
 This program is a strictly educational intention to learn how to pick a code. This 0.1 version is capable of picking a given by User digit code and messaging You of success. 
 
