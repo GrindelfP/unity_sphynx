@@ -5,4 +5,4 @@ def receive_code() -> str:
             int(u_code)
             return u_code
         except ValueError:
-            print("You must use only integers!")
+            print("You must use only integers without spaces!")
