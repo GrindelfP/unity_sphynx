@@ -6,3 +6,10 @@ def receive_code() -> str:
             return u_code
         except ValueError:
             print("You must use only integers without spaces!")
+
+
+def loading() -> None:
+    print("\\", end="\r")
+    print("|", end="\r")
+    print("/", end="\r")
+    print("-", end="\r")
