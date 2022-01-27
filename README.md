@@ -1,6 +1,6 @@
-# Unity Sphynx - version 0.3
+# Unity Sphynx - version 0.4
 ## A quick description
-This program is a strictly educational intention to learn how to pick a code. This 0.1 version is capable of picking a given by User digit code and messaging You of success. 
+This program is a strictly educational intention to learn how to pick a code. This version of application is capable of picking a given by User digit code and messaging You of success. 
 
 ## Program's components
 1) **main.py** contains of two main executable functions: getting Your code and providing You with the success message.
