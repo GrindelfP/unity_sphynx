@@ -1,4 +1,4 @@
-# Unity Sphynx - version 0.4
+# Unity Sphynx - version 0.5
 ## A quick description
 This program is a strictly educational intention to learn how to pick a code. This version of application is capable of picking a given by User digit code and messaging You of success. 
 
