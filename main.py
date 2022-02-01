@@ -1,6 +1,6 @@
 from time import time
 from code_finding import code_checking
-from utility import receive_code, greetings
+from utility import receive_code, greetings, is_exit_possible
 
 greetings()
 if_exit = True
@@ -9,10 +9,6 @@ while if_exit:
     current_time: float = time()
     correct_code: str = code_checking(users_code)
     total_time: float = time() - current_time
-    print("We are in! Your code was ", correct_code, "! \nWe've done the process in ", round(total_time, 8),
+    print("\n\nWe are in! Your code was ", correct_code, "! \nWe've done the process in ", round(total_time, 8),
           " seconds.", sep="")
-    exit_possibility = input("Do you want to continue? (Y/N) ")
-    if exit_possibility.upper() == "N":
-        if_exit = False
-    elif exit_possibility.upper() != "Y":
-        print("I take that as an agreement!")
+    if_exit = is_exit_possible()
